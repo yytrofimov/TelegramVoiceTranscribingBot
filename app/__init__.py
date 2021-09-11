@@ -1,4 +1,3 @@
-import commands
 import telebot
 import speech_recognition as sr
 from pathlib import Path
@@ -19,3 +18,5 @@ class Config:
 
 bot = telebot.TeleBot(Config.TOKEN, parse_mode=None)
 r = sr.Recognizer()
+
+import commands
